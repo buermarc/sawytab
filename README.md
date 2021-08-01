@@ -7,8 +7,9 @@ focused. The filter command can be set via configuration or via command line
 arguments.
 
 Different tools like [swayr](https://git.sr.ht/~tsdh/swayr) already implement
-this behaviour, but I discovered it too late. If you search for a tool swayr
-provides way more features, but it requires a running daemon.
+this behaviour, but I discovered it too late. If you search for a tool,
+[swayr](https://git.sr.ht/~tsdh/swayr) provides way more features, but it
+requires a running daemon.
 
 
 ## Installation
