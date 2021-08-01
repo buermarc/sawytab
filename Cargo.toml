@@ -1,0 +1,17 @@
+[package]
+name = "swaytab"
+version = "0.0.1"
+authors = ["buermarc <buermarc@googlemail.com>"]
+edition = "2018"
+description = "Focus tab with fzf (or any other filter tool)"
+repository = "https://github.com/buermarc/swaytab/"
+readme = "README.md"
+license = "MIT"
+keywords = [ "sway", "swayipc", "fzf" ]
+categories = [ "command-line-utilities" ]
+
+[dependencies]
+swayipc = "2.7"
+serde = "1.0.126"
+clap = "3.0.0-beta.2"
+confy = "0.4.0"
