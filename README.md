@@ -32,7 +32,7 @@ $ which swaytab
 ~/.cargo/bin/swaytab
 ```
 
-Using `cargo install` requires that the `$/HOME/.cargo/bin` directory is in the
+Using `cargo install` requires that the `$HOME/.cargo/bin` directory is in the
 PATH variable.
 
 ## TODO
