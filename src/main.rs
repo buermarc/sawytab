@@ -137,7 +137,7 @@ fn main() {
     let mut connection = Connection::new().expect("Failed to establish connection to sway");
     let node = connection
         .get_tree()
-        .expect("Falide to get current tree layout of sway");
+        .expect("Failed to get current tree layout of sway");
     let ids_names = tree_to_vec_of_names(node);
     // Should be ok to unwrap because we provide default options
     match pass_through_fzf(
