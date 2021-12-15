@@ -1,4 +1,4 @@
-use clap::Clap;
+use clap::Parser;
 use serde::{Deserialize, Serialize};
 use std::io;
 use std::io::Write;
@@ -14,7 +14,7 @@ enum TabError {
 
 /// Thanks to https://github.com/NomisIV/swayhide/ for the inspiration
 /// Report bugs to https://github.com/buermarc/swaytab/issues
-#[derive(Serialize, Deserialize, Debug, Clap)]
+#[derive(Parser, Serialize, Deserialize, Debug)]
 #[clap(version = "0.0.1", author = "buermarc <buermarc@googlemail.com>")]
 struct TabConfig {
     /// Set the command of the to be used filter tool, e.g. `-f bemenu`
